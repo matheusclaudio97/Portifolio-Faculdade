@@ -1,0 +1,57 @@
+/* FONTE */
+
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
+
+
+body{
+    font-family: 'ABeeZee', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #a5a5a5a5;
+    margin: 0 auto ;
+
+}
+
+#header{
+    display: flex;
+    justify-content: center;
+    background-color: blueviolet;
+}
+
+.menu{
+    display: flex;
+
+}
+
+.menu li{
+    margin-left: 15px;
+    list-style: none;
+
+
+}
+.menu li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.menu li a:hover {
+    color:black;
+}
+
+#rodape{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    color: white;
+
+    
+}
