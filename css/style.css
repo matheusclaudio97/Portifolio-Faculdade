@@ -2,28 +2,44 @@
 
 @import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
 
-
+.white{
+    color: white;
+}
 body{
     font-family: 'ABeeZee', sans-serif;
     margin: 0px;
     padding: 0px;
+    width: 100%;
+    background-color: #a5a5a5a5;
     
 }
 
+img{
+    padding: 10px;
+    border-radius: 20px;
+    
+}
+p{
+    text-align: justify;
+}
+a{
+    text-decoration: none;
+}
 .conteudo{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #a5a5a5a5;
     margin: 0 auto ;
+    
 
 }
+
 
 #header{
     display: flex;
     justify-content: center;
-    background-color: blueviolet;
+    background-color: rgb(45, 39, 51);
 }
 
 .menu{
@@ -48,10 +64,66 @@ body{
 }
 
 #rodape{
-    background-color: blueviolet;
+    background-color: rgb(45, 39, 51);
     display: flex;
     justify-content: center;
     color: white;
+    width: 100%;
 
     
 }
+
+.molde-principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(45, 39, 51);
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    
+    
+}
+
+.titulo{
+    background-color: rgb(45, 39, 51);
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+.titulo:hover{
+    color: rgba(255, 255, 255, 0.315);
+}
+.proj{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(45, 39, 51); 
+    border-radius: 20px;
+}
+.img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.maisproj{
+    background-color: rgb(45, 39, 51); 
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+a:hover{
+    color: rgba(255, 255, 255, 0.479);
+}
+
+
